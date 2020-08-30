@@ -1,0 +1,44 @@
+.head
+{
+background:#e0ffff;
+border-radius:8%;
+text-align:center;
+font-family:Algerian;
+color:#ff00ff;
+font-size:50px;
+}
+.footer
+{
+background:#e0ffff;
+border-radius:8%;
+text-align:center;
+font-family:Castellar;
+color:#8a2be2;
+font-size:20px;
+}
+
+.about
+{
+background:#ffdab9;
+border-radius:5%;
+text-align:left;
+font-family:Lucida Handwriting;
+color:#0000ff;
+font-size:30px;
+padding:10px;
+}
+
+.section
+{
+background:#ffdab9;
+border-radius:6%;
+font-family:Lucida Calligraphy;
+color:#0000ff;
+font-size:40px;
+}
+
+.id
+{
+border:2px solid black;
+border-radius:30%;
+}
