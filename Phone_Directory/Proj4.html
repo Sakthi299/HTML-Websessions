@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>PhoneBook</title>
+<style>
+form {color:yellow;font-size:30px; }
+.side {font-size:40px;color:red;}
+.about {font-size:40px;color:black; }
+img{float:right;border:2px solid yellow;border-radius:30%;}
+</style>
+</head>
+<body background="best.jpg">
+<center><p class="side"> Welcome to Directory</center></p>
+<p class="side">Establish your Network</p>
+<p class="about">Updating member details</p>
+<form action="http://localhost/ArunProj/Projupdate.php" method="post">
+Name to identify record:&nbsp<input type="text" name="name">
+<br>
+<center>New Information</center>
+Mobile_No:&nbsp<input type="number" name="mob">
+<br>
+Address:&nbsp<input type="textarea" name="address">
+<br>
+Email:&nbsp<input type="text" name="email">
+<br>
+<center><input type="submit" value="Update this One"></center>
+</form>
+<a href="Home.html"><img src="home.jpg" width="100" height="100"></a>
+</body>
+</html>
